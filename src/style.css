@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/*styling for Navigation bar*/
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 100%;
+    width: auto;
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-size: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item li {
+    margin: 30px 20px;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #30AAB7;
+    transition: color 1s;
+}
+.nav-item a:hover {
+    color: #262626
+}
+
+/*styling for Pre Main*/
+.pre-main {
+    padding: 50px;
+    color: #3099B7;
+        background-color: #A4A4A4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre-main img {
+    height: 100%;
+    border-radius: 50px;
+    transition: filter 5s;
+}
+.pre-main img:hover {
+    filter: blur(5px);
+}
+
+.about-me-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 50px 50px 100px;
+}
+
+.about-me-intro .i-greet {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.about-me-intro .i-intro {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-me-intro hr {
+    margin-top: 100px;
+}
+
+.about-me-intro .hire-me {
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: #ebebeb;
+    color: #30AAB7;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    /*transition*/
+    transition: all ease .5s;
+}
+
+.about-me-intro .hire-me:hover {
+    color: #ebebeb;
+    background-color: #30AAB7;
+    box-shadow: 5px 5px 0 black;
+}
+
+/*styling for Main*/
+main {
+    height: 2000px;
+}
+
+
+
+
+

@@ -1,0 +1,4 @@
+"seafoam" = #30AAB7
+"grey" = #727272
+"offwhite" = #ebebeb
+"darkgrey" = #262626
